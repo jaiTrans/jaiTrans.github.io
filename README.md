@@ -4,11 +4,11 @@
 
 # Screenshot
 
-![mld edit](https://user-images.githubusercontent.com/43953425/212030864-cf3aa272-e070-4e1b-8e25-f488ca56873e.png)
+![Jai Trans edit](https://user-images.githubusercontent.com/43953425/212030864-cf3aa272-e070-4e1b-8e25-f488ca56873e.png)
 
 
 
-The Live demo is available [Here](https://mld-prototype.netlify.app)
+The Live demo is available [Here](https://Jai Trans-prototype.netlify.app)
 
 ## Description
 
@@ -25,3 +25,4 @@ To use this template:
 Feel free to edit and make changes. 
 
 You can also Fork the repo and clone to your local machine, make desired changes and enjoy.
+# jaiTrans
