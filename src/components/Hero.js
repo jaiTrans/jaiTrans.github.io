@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import NavBar from '../components/Navbar/NavBar';
-import heroImg from '../images/web-dev.svg';
+import mainImage from '../images/mainImage.jpeg'
 
-const Hero = () => {
+const About = () => {
     return (
         <>
             <div className="hero" id='hero'>
@@ -13,13 +13,14 @@ const Hero = () => {
                 
                 <div className="m-auto overflow-hidden mx-4 mt-8 lg:mt-4 p-2 md:p-12 h-5/6" data-aos="zoom-in">
 
-                    <div id='hero' className="flex flex-col lg:flex-row py-8 justify-between text-center lg:text-left">
+                    <div id='jaimain' className="flex flex-col lg:flex-row gap-4 py-10 justify-between text-center mt-8 lg:text-left">
                         <div className="lg:w-1/2 flex flex-col justify-center" data-aos="zoom-in" data-aos-delay="200">
-                            <h1 className="mb-5 md:text-5xl text-3xl font-bold text-blue-900">
+                            <h1 className="my-4 md:text-5xl text-3xl font-bold text-blue-800">
                             {/* We build digital solutions to help businesses scale */}
-                                Bespoke software solutions for your unique business needs
+                            ‘’Jai  Trans’’ is India’s leading logistics company
                             </h1>
-                            <div className="text-xl font-semibold tracking-tight mb-5 text-gray-500">We are a team of highly motivated and skilled developers dedicated to delivering only the best software.</div>
+                            <div className="text-xl font-semibold tracking-tight my-4 text-gray-500">Established in 2023,  ‘’Jai  Trans’’ is India’s leading logistics company and including end-to-end multimodal transportation with loading services catered through owned and hired fleet for bulk goods movement on a pan-India basis. </div>
+                            <div className="text-xl font-semibold tracking-tight my-3 text-gray-500">Whether the customer requirement is for customised or specialised fleet, as a Full Truck Load service provider .It has grown leaps and bounds. We promise our customers an efficient and dedicated service.</div>
                             <div className="mb-4 space-x-0 md:space-x-2 md:mb-8">
                                 <Link to="/contact" className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-3 my-4 text-lg shadow-xl rounded-2xl sm:w-auto sm:mb-0">
                                     Learn more
@@ -36,7 +37,7 @@ const Hero = () => {
                             </div>
                         </div>
                         <div className="flex lg:justify-end w-full lg:w-1/2" data-aos="fade-up" data-aos-delay="700">
-                            <img alt="card img" className="rounded-t float-right duration-1000 w-full" src={heroImg} />
+                            <img alt="jaiTransImg" className="rounded-t float-right my-10 duration-1000 h-100 w-full" src={mainImage} />
                         </div>
                     </div>
                 </div>
@@ -45,4 +46,4 @@ const Hero = () => {
     )
 }
 
-export default Hero;
+export default About;

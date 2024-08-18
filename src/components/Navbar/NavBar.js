@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import NavLinks from '../Navbar/NavLinks';
 import { HashLink } from 'react-router-hash-link';
+import Logo from '../../images/JaiTransLogo.jpeg';
 
 
 const NavBar = () => {
@@ -21,9 +22,9 @@ const NavBar = () => {
 
     return (
         <nav className={`fixed top-0 w-full z-30 transition duration-300 ease-in-out mb-16 ${!top && 'bg-white shadow-lg'}`}>
-            <div className="flex flex-row justify-between items-center py-2">
+            <div className="flex flex-row justify-between items-center py-1">
                 <div className="flex flex-row justify-center md:px-12 md:mx-12 items-center text-center font-semibold">
-                    <HashLink smooth to="/#hero"><h1 className="font-extrabold text-4xl text-blue-900">mld</h1></HashLink>
+                    <HashLink smooth to="/#hero"><img className="font-extrabold text-sm text-blue-900"  width="250px" alt='Jai Trans' src={Logo} /></HashLink>
                     
                 </div>
                 <div className="group flex flex-col items-center">
