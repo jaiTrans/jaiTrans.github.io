@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.35da2dc4.css",
-    "main.js": "/static/js/main.2a3ed542.js",
+    "main.css": "/static/css/main.a3810aca.css",
+    "main.js": "/static/js/main.0d835313.js",
     "static/media/HalfLoaded.jpg": "/static/media/HalfLoaded.a0e18c3d455cf08425fe.jpg",
     "static/media/fireflycargo.jpg": "/static/media/fireflycargo.9208de223cd3337e25fe.jpg",
     "static/media/odc.jpg": "/static/media/odc.ad245071d949d1b938a1.jpg",
@@ -13,11 +13,11 @@
     "static/media/footer.svg": "/static/media/footer.70b54bbe52a797ce69c1.svg",
     "index.html": "/index.html",
     "static/media/hero-bg.svg": "/static/media/hero-bg.c3b4448a16ff1a8da834.svg",
-    "main.35da2dc4.css.map": "/static/css/main.35da2dc4.css.map",
-    "main.2a3ed542.js.map": "/static/js/main.2a3ed542.js.map"
+    "main.a3810aca.css.map": "/static/css/main.a3810aca.css.map",
+    "main.0d835313.js.map": "/static/js/main.0d835313.js.map"
   },
   "entrypoints": [
-    "static/css/main.35da2dc4.css",
-    "static/js/main.2a3ed542.js"
+    "static/css/main.a3810aca.css",
+    "static/js/main.0d835313.js"
   ]
 }
