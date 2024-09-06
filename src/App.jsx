@@ -29,7 +29,7 @@ function App() {
     });
   }, []);
 
-  useDocTitle("Jai Trans | Molad e Konsult - Bespoke Web and Mobile Applications");
+  useDocTitle("Jai Trans");
 
   return (
     <>

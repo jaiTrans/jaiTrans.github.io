@@ -5,7 +5,7 @@ import {useDocTitle} from '../components/CustomHook';
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {
-    useDocTitle('Jai Trans | Molad e Konsult - Send us a message')
+    useDocTitle('Jai Trans')
     const [firstName, setFirstName] = useState('')
     const [lastName, setLastName] = useState('')
     const [email, setEmail] = useState('')
