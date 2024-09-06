@@ -66,7 +66,7 @@ const Services = () => {
             <section>
                 
                 <div className="m-auto max-w-6xl mt-8 p-4 md:p-12 h-5/6">
-                <label className='text-gray-600 text-2xl'>Our offices</label>
+                <label className='text-gray-600 text-2xl'>We are available at:</label>
                        <CityTable />
                     
                 </div>

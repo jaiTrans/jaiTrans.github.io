@@ -9,14 +9,14 @@ const Intro = () => {
 
                     <div className="flex flex-col-reverse lg:flex-row py-8 justify-between lg:text-left" data-aos="fade-up">
                         <div className="lg:w-1/2 flex flex-col lg:mx-4 justify-center">
-                            <img alt="card img" className="rounded-t float-right md:h-100 h-auto w-full" src={img} />
+                            <img alt="card img" className="rounded-t float-right" src={img} />
                         </div>
                         <div className="flex-col my-4 text-center lg:text-left lg:my-0 lg:justify-end w-full lg:w-1/2 px-8" data-aos="zoom-in" data-aos-delay="500">
                             
-                            <h3 className="text-3xl  text-blue-900 font-bold">Our Vision:</h3>
+                            <h3 className="text-3xl  text-blue-900 font-bold">Our operational features are:</h3>
                             <div  className='my-3 text-xl text-gray-600 font-semibold'>          
                                     <ul>
-                                     <li>1)24X7 working.</li>
+                                     <li>1) 24X7 working.</li>
                                 <li>2) Largest supply chain network.</li>
                                 <li>3) Well trained and experienced manpower.</li>
                                 <li>4) Company owned fleet solution</li></ul>
