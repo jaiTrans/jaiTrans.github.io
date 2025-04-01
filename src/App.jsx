@@ -13,7 +13,7 @@ import Contact from './pages/Contact';
 
 import {useDocTitle} from './components/CustomHook';
 import ScrollToTop from './components/ScrollToTop';
-import Navbar from './components/Navbar/NavBar'
+import NavBar from './components/Navbar/NavBar'
 
 function App() {
   useEffect(() => {
