@@ -1,8 +1,7 @@
 import React from 'react';
 
 const offices = [
-  { city: 'Delhi', state: 'Delhi' },
-  { city: 'Khera', state: 'Haryana' },
+  { city: 'Khera', state: 'Delhi' },
   { city: 'Amedabad', state: 'Gujarat' },
   { city: 'Noida', state: 'Uttar Pradesh' },
   { city: 'Pune', state: 'Maharashtra' },
