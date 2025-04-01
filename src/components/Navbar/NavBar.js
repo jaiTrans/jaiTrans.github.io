@@ -24,7 +24,14 @@ const NavBar = () => {
         <nav className={`fixed top-0 w-full z-30 transition duration-300 ease-in-out mb-16 ${!top && 'bg-white shadow-lg'}`}>
             <div className="flex flex-row justify-between items-center py-1">
                 <div className="flex flex-row justify-center md:px-12 md:mx-12 items-center text-center font-semibold">
-                    <HashLink smooth to="/#hero"><img className="font-extrabold text-sm text-blue-900"  width="250px" alt='Jai Trans' src={Logo} /></HashLink>
+                    <HashLink smooth to="/#hero">
+                        <img 
+                          className="h-12 w-auto md:h-16"  
+                          alt='Jai Trans - Reliable Logistics' 
+                          src={Logo} 
+                        />
+
+                    </HashLink>
                     
                 </div>
                 <div className="group flex flex-col items-center">
