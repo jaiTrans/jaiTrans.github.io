@@ -13,35 +13,39 @@ import Contact from './pages/Contact';
 
 import {useDocTitle} from './components/CustomHook';
 import ScrollToTop from './components/ScrollToTop';
+import Navbar from './components/Navbar/Navbar'
 
 function App() {
   useEffect(() => {
-    const aos_init = () => {
-      AOS.init({
-        once: true,
-        duration: 1000,
-        easing: 'ease-out-cubic',
-      });
-    }
+  AOS.init({
+    once: true,
+    duration: 1000,
+    easing: 'ease-out-cubic',
+  });
 
-    window.addEventListener('load', () => {
-      aos_init();
-    });
-  }, []);
+  // Refresh AOS when page is fully loaded
+  window.addEventListener('load', () => {
+    AOS.refresh();
+  });
+
+  return () => window.removeEventListener('load', AOS.refresh);
+}, []);
+
 
   useDocTitle("Jai Trans");
 
   return (
     <>
-      <Router>
-        <ScrollToTop>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/contact" element={<Contact />} />
-           
-          </Routes>
-        </ScrollToTop>
-      </Router>
+     <Router>
+      <NavBar /> {/* Load once here */}
+      <ScrollToTop>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </ScrollToTop>
+     </Router>
+
     </>
   );
 }
