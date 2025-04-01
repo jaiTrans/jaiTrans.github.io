@@ -1,6 +1,7 @@
 {
-  "name": "Jai Trans",
+  "name": "Jai Trans - Reliable Logistics",
   "short_name": "JaiTrans",
   "start_url": "/",
-  "display": "standalone"
+  "display": "standalone",
+  "description": "Reliable Transport and Logistics Services in India",
 }
