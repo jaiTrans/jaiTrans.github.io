@@ -26,7 +26,7 @@ const NavBar = () => {
                 <div className="flex flex-row justify-center md:px-12 md:mx-12 items-center text-center font-semibold">
                     <HashLink smooth to="/#hero">
                         <img 
-                          className="h-12 w-auto md:h-16"  
+                          className="h-8 w-auto md:h-12"  
                           alt='Jai Trans - Reliable Logistics' 
                           src={Logo} 
                         />
