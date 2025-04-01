@@ -19,8 +19,12 @@ const About = () => {
                             {/* We build digital solutions to help businesses scale */}
                             ‘’Jai  Trans’’ is India’s leading logistics company
                             </h1>
-                            <div className="text-xl font-semibold tracking-tight my-4 text-gray-500">Established in 2023,  ‘’Jai  Trans’’ is India’s leading logistics company and including end-to-end multimodal transportation with loading services catered through owned and hired fleet for bulk goods movement on a pan-India basis. </div>
-                            <div className="text-xl font-semibold tracking-tight my-3 text-gray-500">Whether the customer requirement is for customised or specialised fleet, as a Full Truck Load service provider .It has grown leaps and bounds. We promise our customers an efficient and dedicated service.</div>
+                             <div className="text-left md:text-left text-lg md:text-xl font-semibold tracking-tight my-4 text-gray-500 leading-relaxed px-4 md:px-0">
+                                Established in 2023, ‘’Jai Trans’’ is India’s leading logistics company, offering end-to-end multimodal transportation with loading services. We cater through owned and hired fleets for bulk goods movement across India.
+                             </div>
+                            <div className="text-left md:text-left text-lg md:text-xl font-semibold tracking-tight my-3 text-gray-500 leading-relaxed px-4 md:px-0">
+                                Whether the customer requires a **customized or specialized fleet**, as a Full Truck Load service provider, Jai Trans has grown exponentially. We promise our customers **efficient and dedicated service**.
+                            </div>
                             <div className="mb-4 space-x-0 md:space-x-2 md:mb-8">
                                 <Link to="/contact" className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-3 my-4 text-lg shadow-xl rounded-2xl sm:w-auto sm:mb-0">
                                     Learn more
