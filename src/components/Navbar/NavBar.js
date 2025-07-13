@@ -44,6 +44,31 @@ const NavBar = () => {
                             )}
                         </svg>
                     </button>
+                        <div className="hidden lg:flex items-center space-x-6 p-5">
+                          <NavLinks />
+                        </div>
+                        <div className="hidden lg:inline-block">
+                              <HashLink
+                                smooth
+                                to="/#enquiry"
+                                className="bg-blue-900 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition duration-200"
+                              >
+                                Enquire Now
+                              </HashLink>
+                            </div>
+
+                        <div className={`fixed transition-transform duration-300 ease-in-out transit flex justify-center left-0 w-full h-auto rounded-md p-24 bg-white lg:hidden shadow-xl top-14 ${isOpen ? "block" : "hidden"}`}>
+                            <div className="flex flex-col space-y-6 items-center">
+                            <NavLinks />
+                                <HashLink
+                                      smooth
+                                      to="/#enquiry"
+                                      className="bg-blue-900 hover:bg-blue-700 text-white text-center font-bold py-3 px-6 rounded transition duration-200"
+                                    >
+                                      Enquire Now
+                                </HashLink>
+                        </div>                                                
+                </div>
                 </div>
             </div>
         </nav>
