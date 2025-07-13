@@ -63,6 +63,7 @@ const EnquiryForm = () => {
   };
 
   return (
+    <div className="enquiry" id="enquiry">
     <section className="w-full bg-white py-16 px-4 lg:px-20">
       <div className="max-w-5xl mx-auto bg-white p-10 md:px-12 lg:px-20 rounded-2xl shadow-2xl">
         <div className="flex flex-col mb-10">
@@ -146,6 +147,7 @@ const EnquiryForm = () => {
         </form>
       </div>
     </section>
+   </div>
   );
 };
 
