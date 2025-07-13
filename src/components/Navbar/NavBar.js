@@ -45,37 +45,6 @@ const NavBar = () => {
                             )}
                         </svg>
                     </button>
-                    <div className="hidden lg:flex items-center space-x-6 p-5">
-                      <NavLinks />
-                      <a
-                        href="https://wa.me/919911877223?text=Hi%2C%20I%20would%20like%20to%20inquire%20about%20your%20services."
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex items-center bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition"
-                      >
-                        <i className="fab fa-whatsapp mr-2" />
-                        Chat on WhatsApp
-                      </a>
-                    </div>
-
-
-                    <div className={`fixed transition-transform duration-300 ease-in-out transit flex justify-center left-0 w-full h-auto rounded-md p-24 bg-white lg:hidden shadow-xl top-14 ${isOpen ? "block" : "hidden"}`}>
-                          <div className="flex flex-col space-y-6 items-center">
-                            <NavLinks />
-                            
-                            <a
-                              href="https://wa.me/919911877223?text=Hi%2C%20I%20would%20like%20to%20inquire%20about%20your%20services."
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="flex items-center justify-center bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition mt-4"
-                            >
-                              <i className="fab fa-whatsapp mr-2" />
-                              Chat on WhatsApp
-                            </a>
-                          </div>                                                
-                        </div>
-
-
                 </div>
             </div>
         </nav>
