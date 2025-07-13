@@ -19,7 +19,7 @@ const NavLinks = () => {
             <HashLink
                 smooth
                 to="/#enquiry"
-                className="bg-blue-900 hover:bg-blue-700 text-white text-center font-bold py-3 px-6 rounded transition duration-200" to="/#enquiry">
+                className="bg-blue-900 hover:bg-blue-700 text-white text-center font-bold py-3 px-6 rounded transition duration-200">
                      Enquire Now
             </HashLink>
           
