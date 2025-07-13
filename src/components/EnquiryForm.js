@@ -36,8 +36,8 @@ const EnquiryForm = () => {
 
   const clearForm = () => {
     setFormData({ name: '', email: '', phone: '', enquiry: '' });
-    setErrors({});
     setSubmitSuccess(false);
+    clearErrors()
   };
 
   const sendEmail = (e) => {
