@@ -173,23 +173,28 @@ const Contact = () => {
                                     </div>
                                 </div>
                     
-                    <div className="flex my-4 w-2/3 lg:w-1/2">
-                        <div className="flex flex-col">
-                        <i className="fas fa-phone-alt pt-2 pr-2" />
-                        </div>
+                    ]<div className="flex my-4 w-2/3 lg:w-1/2">
+  <div className="flex flex-col">
+    <i className="fas fa-phone-alt pt-2 pr-2" />
+  </div>
 
-                        <div className="flex flex-col">
-                        <h2 className="text-2xl">Call Us</h2>
-                        <p className="text-gray-400">Tel: 0120-4308766</p>
-                        
-                            <div className='mt-5'>
-                                <h2 className="text-2xl">Send an E-mail</h2>
-                                <p className="text-gray-400">jaitrans45@gmail.com</p>
-                            </div>
-                       
-                        </div>
-                    </div>
-                    </div>
+  <div className="flex flex-col">
+    <h2 className="text-2xl">Call Us</h2>
+    <p className="text-gray-400">Tel: 0120-4308766</p>
+
+    {/* WhatsApp Chat Button */}
+     <div className="flex items-center text-gray-400 mt-2">
+      <i className="fab fa-whatsapp pr-2 text-green-500" />
+      <span>WhatsApp: +91-9911877223</span>
+    </div>
+
+    <div className="mt-5">
+      <h2 className="text-2xl">Send an E-mail</h2>
+      <p className="text-gray-400">jaitrans45@gmail.com</p>
+    </div>
+  </div>
+</div>
+
                 </div>
                 </div>
             </div>
