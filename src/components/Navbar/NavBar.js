@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import NavLinks from '../Navbar/NavLinks';
 import { HashLink } from 'react-router-hash-link';
 import Logo from '../../images/JaiTransLogo.jpeg';
 
