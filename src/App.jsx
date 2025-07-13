@@ -10,10 +10,11 @@ import {
 // All pages
 import Home from './pages/Home';
 import Contact from './pages/Contact';
-
 import {useDocTitle} from './components/CustomHook';
 import ScrollToTop from './components/ScrollToTop';
 import NavBar from './components/Navbar/NavBar'
+import EnquiryForm from './components/EnquiryForm';
+
 
 function App() {
   useEffect(() => {
@@ -42,6 +43,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/enquiry" element={<EnquiryForm />} />
         </Routes>
       </ScrollToTop>
      </Router>
